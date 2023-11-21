@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    /*sizings*/
+    --xs-sizing:8px;
+    --s-sizing:16px;
+    --m-sizing:24px;
+    --l-sizing:32px;
+    --xl-sizing:64px;
+    --xxl-sizing:120px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
